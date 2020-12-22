@@ -1,1 +1,1 @@
-web: gunicorn spamblocker.wsgi
+web: gunicorn securedblog.wsgi
