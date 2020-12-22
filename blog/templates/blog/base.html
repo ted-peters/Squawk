@@ -10,8 +10,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+    <!-- reference your installed Font Awesome Free package's files here -->
+    <script src="{% static 'fontawesome_free/js/all.min.js' %}"></script>
+    <script src="https://kit.fontawesome.com/cca0720443.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     {%if title%}
-    <title>Security-{{title}}</title>
+    <title>Secured-{{title}}</title>
     {% else %}
     <title></title>
     {% endif %}
@@ -21,7 +26,7 @@
     <header class="site-header">
         <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
             <div class="container">
-                <a class="navbar-brand mr-4" href="{%url 'security-home' %}">Secured Blog</a>
+                <a class="navbar-brand mr-4 " href="{%url 'security-home' %}"><u>Squawk</u><i class="fas fa-crow"></i></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
                     aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
