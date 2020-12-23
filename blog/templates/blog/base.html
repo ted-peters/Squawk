@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     {%if title%}
-    <title>Secured-{{title}}</title>
+    <title>Squawk{{title}}</title>
     {% else %}
     <title></title>
     {% endif %}
@@ -33,8 +33,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggle">
                     <div class="navbar-nav mr-auto">
-                        <a class="nav-item nav-link" href="{%url 'security-home' %}">Home</a>
-                        <a class="nav-item nav-link" href="{%url 'security-about' %}">About</a>
+                        <a class="nav-item nav-link" href="{%url 'security-home' %}">Bird Feed</a>
+                        {% comment %} <a class="nav-item nav-link" href="{%url 'security-about' %}">About</a> {% endcomment %}
                     </div>
                     <!-- Navbar Right Side -->
                     <div class="navbar-nav">
