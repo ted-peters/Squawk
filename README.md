@@ -14,13 +14,7 @@ I made this application to practice using the Python Framework, Django. The fron
 
 * [Deployed Application](#link)
 
-* [Usage](#usage)
-
 * [License](#license)
-
-* [Contributing](#contributing)
-
-* [Tests](#tests)
 
 * [Questions](#questions)
 
@@ -35,14 +29,6 @@ pip install requirements.txt
 ## License
 
 This project is licensed under the MIT license.
-  
-## Tests
-
-To run tests, run the following command:
-
-```
-None 
-```
 
 ## Questions
 
