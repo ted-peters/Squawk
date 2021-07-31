@@ -3,7 +3,7 @@
 
 ## Description
 
-I made this application to practice using the Python Framework, Django. The front end is created by the Django HTML templating feature, and the backend is supported by Djangos out of the box authuentication features. user info is stored in PostgreSQL.
+I made this application to practice using the Python Framework, Django. The front end is created by the Django HTML templating feature, and the backend is supported by Djangos out of the box authuentication features. User info is stored in PostgreSQL.
 
 ## Link
 [Squawk](https://secured-blog.herokuapp.com/)
